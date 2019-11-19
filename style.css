@@ -1,8 +1,22 @@
+html{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 div{ 
     height: 100%;
     color: white;
     background-image: url(media/Background.jpg);
     background-size: cover;
+}
+img{
+    height: 10%;
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+}
+li{
+    font-family: 'Indie Flower', cursive;
 }
 ul{
     list-style: none;
