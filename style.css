@@ -1,35 +1,44 @@
 html{
-    font-size: 62.5%;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-}
-.header{
-    
-}
-.header-text{ 
+    background-image: url(media/Background.jpg);
+    background-size: cover;
+    backdrop-filter: blur(.5px) brightness(75%);
+ }
+ .header{
     height: 100%;
     color: white;
-    background-image: url(media/Background.jpg);
-    filter: blur(2px);
-    background-size: cover;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    font-size: 1.5rem;
-
-}
-
-img{
+    position: relative;
+ }
+ img{
     height: 10%;
-    margin: 7rem;
-
-}
-h1{
+    padding: 3%;
+ }
+ h1{
     font-family: 'Dancing Script', cursive;
-}
-li{
+ }
+ li{
     font-family: 'Indie Flower', cursive;
-}
-ul{
+    font-size: 1.5rem;
+ }
+ ul{
     list-style: none;
-}
+ }
+ .images{
+    filter: drop-shadow(.1rem .1rem white);
+    margin: 0rem 1rem 5rem 1rem;
+ }
+ .UC1{
+    filter: drop-shadow(.1rem .1rem #d4b012);
+ }
+ .UC2{
+    filter: drop-shadow(.1rem .1rem #003262);
+ }
+ #logo{
+     position: absolute;
+     height: 25rem;
+    left: 0%;
+    top: -184%;
+ }
+ 
